@@ -1,0 +1,59 @@
+html {
+    padding: 1rem;
+    color: #333333;
+}
+
+body {
+    font-family: arial;
+    max-width: 95vh;
+    margin: 0 auto;
+    min-height: 95vh;
+    display: flex;
+    flex-flow: column;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+header {
+    margin-bottom: 2rem;
+}
+
+header a {
+    color: gray;
+    text-decoration: none;
+    padding-left: 1rem;
+}
+
+h1 {
+    font-size: 4rem;
+    padding: 1rem;
+    margin: 0;
+
+}
+
+footer {
+    border-top: #c7c8c9 1px solid;
+    padding: 1rem;
+    color: gray;
+    text-align: center;
+}
+
+.about-img {
+    width: 10rem;
+    border-radius: 100%;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button {
+    color: white;
+    background-color: #888888;
+    border: #888888;
+    padding: 8px;
+    cursor: pointer;
+}
