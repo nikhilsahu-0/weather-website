@@ -1,5 +1,4 @@
 'use strict';
-console.log('Clint side javascript is up');
 const form = document.querySelector('form');
 const input = document.querySelector('input');
 const messageOne = document.querySelector('.msg-1');
