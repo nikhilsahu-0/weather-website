@@ -8,7 +8,7 @@ const weatherStack = require('./utils/weather-stack');
 
 
 const app = express();      //to be called a single time to generate an express application
-
+const port = process.env.PORT || 3000;
 //all the directory path for exress
 const publicDirPath = path.join(__dirname, '../public');
 const viewsDirPath = path.join(__dirname, '../templates/views');
@@ -96,6 +96,6 @@ app.get('*', (req, res) => {
 });
 
 
-app.listen(3000, () => {
-    console.log('server is up');
+app.listen(port, () => {
+    console.log(`server is up on port ${port}.`);
 });
