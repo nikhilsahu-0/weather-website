@@ -43,6 +43,7 @@ footer {
 .about-img {
     width: 10rem;
     border-radius: 100%;
+    float: left;
 }
 
 input {
@@ -56,4 +57,20 @@ button {
     border: #888888;
     padding: 8px;
     cursor: pointer;
+}
+
+span {
+    color: #888888;
+}
+
+.h1-h2 {
+    font-size: 40px;
+}
+
+.about-head {
+    line-height: 40px;
+}
+
+.about-content {
+    margin-top: 10rem;
 }
